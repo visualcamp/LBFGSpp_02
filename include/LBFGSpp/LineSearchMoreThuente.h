@@ -339,8 +339,9 @@ public:
             }
         }
 
-        if (iter >= param.max_linesearch)
-            throw std::runtime_error("the line search routine reached the maximum number of iterations");
+        /* ignore linesearch max limit */
+        // if (iter >= param.max_linesearch)
+            // throw std::runtime_error("the line search routine reached the maximum number of iterations");
     }
 };
 
