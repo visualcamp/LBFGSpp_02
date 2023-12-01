@@ -8,3 +8,10 @@ issues/*
 .cproject
 /Debug/
 /Release/
+
+/build
+build/*
+
+*.idea
+*cmake-build-*
+
